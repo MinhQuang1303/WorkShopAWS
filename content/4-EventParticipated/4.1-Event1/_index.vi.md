@@ -86,7 +86,7 @@ Những kiến thức thu nhận từ sự kiện đã được tôi nghiên c�
 - **Tối ưu hóa API quét hình ảnh bằng AI:** Ứng dụng kỹ thuật làm sạch siêu dữ liệu/tên file và bổ sung các ràng buộc dữ liệu đầu ra bằng mã Regex nghiêm ngặt cho endpoint quét linh kiện AI tại **Tuần 11** để giảm thiểu tối đa tỷ lệ phân loại sai của mô hình AI Bedrock.
 
 ### Hình ảnh ghi nhận tại sự kiện
-<img src="/images/event1.jpg" alt="Toàn cảnh hội trường AWS Community Day Vietnam 2026" width="500" style="border-radius: 8px; margin: 15px 0; display: block;">
+<img src="{{ "images/event1.jpg" | relURL }}" alt="Toàn cảnh hội trường AWS Community Day Vietnam 2026" width="500" style="border-radius: 8px; margin: 15px 0; display: block;">
 
 ### Cảm nhận cá nhân
 Sự kiện AWS Community Day Vietnam 2026 mang lại bầu không khí công nghệ vô cùng sôi động và nhiệt huyết. Những bài chia sẻ từ các chuyên gia đầu ngành không chỉ giúp tôi mở rộng góc nhìn kỹ thuật về hạ tầng đám mây và AI thực tế, mà còn mở ra cơ hội kết nối, học hỏi quý báu. Đây chính là nguồn động lực lớn cổ vũ tinh thần nghiên cứu của tôi trong suốt giai đoạn thực tập.
