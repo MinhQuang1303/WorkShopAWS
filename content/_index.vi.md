@@ -26,8 +26,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 10/07/2026
 
-<img src="{{ "images/avatar.jpg" | relURL }}" alt="Ảnh đại diện" width="150" style="border-radius: 8px; margin: 15px 0 15px 25px; display: block;">
-
+<img alt="Ảnh đại diện của bạn" src="../images/avatar.jpg">
 ### Nội dung báo cáo
 
 1. [Nhật ký công việc (Worklog)](1-Worklog/)

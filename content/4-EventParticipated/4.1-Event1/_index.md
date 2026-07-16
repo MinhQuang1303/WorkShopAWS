@@ -86,7 +86,7 @@ The knowledge gained from the event was applied to the design and implementation
 - **Optimizing AI Scan Image API:** Applied filename/metadata sanitization and structured regex validation bounds to the AI parts scanning endpoint at Week 11 to reduce AI misclassification errors.
 
 ### Event Photos
-<img src="{{ "images/event1.jpg" | relURL }}" alt="AWS Community Day Vietnam 2026 Main Stage" width="500" style="border-radius: 8px; margin: 15px 0; display: block;">
+<img alt="AWS Community Day Vietnam 2026" src="../../images/event1.jpg">
 
 ### Personal Reflections
 AWS Community Day Vietnam 2026 offered an energetic, tech-driven atmosphere. Learning from top industry speakers broadened my technical horizons and created great networking opportunities. The event provided great inspiration throughout my internship.
