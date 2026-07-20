@@ -10,85 +10,88 @@ pre: " <b> 4.1. </b> "
 ⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
 {{% /notice %}}
 
-# Harvest Report: AWS Community Day Vietnam 2026
+# Harvest Report: HCM_FCAJ Community Day 2026 (AWS Community Day)
 
 ### Event Information
-- **Event Name:** AWS Community Day Vietnam 2026
-- **Date & Time:** May 23, 2026 (08:00 - 17:00)
-- **Location:** Ho Chi Minh City, Vietnam
-- **Role:** Attendee
+- **Event Name:** HCM_FCAJ Community Day 2026 (FCAJ Community Day)
+- **Date & Time:** Saturday, May 23, 2026 (08:00 - 17:00)
+- **Location:** AWS Vietnam Office, 26th & 36th Floor, Bitexco / MPlaza Building, Ho Chi Minh City, Vietnam
+- **Scale:** Over 500 attendees (Fully packed main auditorium on 26th floor, live-streamed to 36th floor overflow area)
+- **Role:** Student Intern / Attendee
+
+---
 
 ### Event Objectives
-AWS Community Day is a large-scale technology conference organized by the local AWS User Group Vietnam. The main goals of the event are:
-- Share the latest technology trends in the AWS cloud ecosystem, particularly Generative AI (GenAI), Serverless architectures, and modern application designs.
-- Connect software engineers, Solution Architects (SAs), AWS Community Builders, and the tech business community in Vietnam.
-- Share practical best practices, digital transformation case studies, and cloud cost optimization tactics from leading enterprises (GoTymeX, VPBank, Cloud Kinetics, etc.).
+HCM_FCAJ Community Day 2026 is a large-scale tech gathering bringing together over 500 students, cloud engineers, and AI enthusiasts in Ho Chi Minh City. The primary goals of the event are:
+- Share practical hands-on insights on the convergence of **Cloud & Generative AI (GenAI)**, AWS cloud infrastructure optimization, and modern application development.
+- Foster a strong networking environment between **First Cloud AI Journey (FCAJ)** students, experienced industry speakers, and AWS solution architects.
+- Inspire continuous learning through real-world Hackathon experiences and enterprise cloud adoption case studies.
+
+---
 
 ### Key Presentation Highlights
+
+The event featured 6 deep-dive technical sessions centered around two main pillars: **Cloud Infrastructure** and **Generative AI**.
 
 #### 1. Context Is Everything - Making AI Actually Work for You
 - **Speaker:** Tinh Truong (Platform Engineer, GoTymeX)
 - **Key Topics:**
-  - Identified the core reason why AI applications frequently hallucinate is not necessarily weak LLMs, but rather a lack of specific, relevant Context.
-  - Introduced the “Prompt to Memory Pipeline” architecture – showing how to build dynamic context injection pipelines and long-term memory solutions for AI.
-  - Shared insights on working productively alongside AI assistants and recommended skill development paths for students/junior developers in the AI era.
+  - Analyzed why AI applications frequently suffer from hallucinations, attributing it to a lack of specific, relevant Context rather than weak LLMs.
+  - Introduced the "Prompt to Memory Pipeline" architecture, demonstrating dynamic context injection pipelines and long-term memory integration for practical enterprise AI workflows.
 
 #### 2. Friendly AI Assistant w/ Amazon Quick
 - **Speaker:** Pham Ngoc Hai Anh (G-AsiaPacific Vietnam, AWS Community Builder)
 - **Key Topics:**
-  - Analyzed enterprise pain points: Business users waste substantial time looking up scattered, fragmented data from multiple systems.
-  - Introduced “Amazon Quick”, an AI assistant built on Amazon Bedrock, integrating 40+ secure database connectors and intelligent web searching capability.
-  - Real-world Case Study: A Project Manager assistant that automates Minutes of Meeting (MoM) generation, drafts emails, and tracks developers’ schedules.
+  - Addressed enterprise friction where business users waste time retrieving fragmented data across siloed systems.
+  - Introduced "Amazon Quick", an AI assistant powered by **Amazon Bedrock**, featuring 40+ secure database connectors and intelligent web search.
+  - Demonstrated an automated PM assistant generating Minutes of Meeting (MoM), sending schedule reminders, and syncing developer roadmaps.
 
 #### 3. From Edge to Origin: CloudFront as Your Foundation
 - **Speaker:** Nguyen Tuan Thinh (DevOps Engineer, First Cloud AI Journey)
 - **Key Topics:**
-  - Addressed cost unpredictability in traditional pay-as-you-go CDN pricing models.
-  - Proposed a fixed-price CDN model utilizing Amazon CloudFront, AWS WAF, Route 53, and S3 storage resources for predictable monthly expenses.
-  - Detailed advanced configurations: Edge security (AWS Shield, WAF, Mutual TLS, geo-blocking), Origin Failover setups, HTTP/3 (QUIC) support, and edge logic customizations using CloudFront Functions or Lambda@Edge.
+  - Solved traditional CDN cost unpredictability with a predictable fixed-price model combining **Amazon CloudFront**, **AWS WAF**, **Route 53**, and **S3**.
+  - Highlighted edge security mechanisms (AWS Shield, WAF, Mutual TLS, geo-blocking), Origin Failover setups, HTTP/3 (QUIC) support, and edge logic customizations using CloudFront Functions / Lambda@Edge.
 
 #### 4. 36 hrs with LotusHacks: Building UTMorpho from Idea to Reality
 - **Presenters:** UTMorpho Team (LotusHacks 2026 Participants)
 - **Key Topics:**
-  - Shared their journey designing and building “UTMorpho”, a Generative Design application, in a 36-hour hackathon.
-  - System Architecture: React SPA frontend on CloudFront + S3; API Gateway + Lambda backend writing to S3 and DynamoDB; Amazon Bedrock GenAI engine parsing image sketches, generating UI layouts, and streaming live React previews.
-  - Lessons on handling AI overgeneration, token limits, and working under extreme pressure.
+  - Shared their 36-hour hackathon journey constructing "UTMorpho", a Generative Design application.
+  - Detailed their Serverless stack: React SPA on S3 + CloudFront, API Gateway + Lambda + DynamoDB, powered by Amazon Bedrock to parse image sketches into live React UI code previews.
 
-#### 5. Non-Determinism of ‘Deterministic’ LLM Settings
+#### 5. Non-Determinism of 'Deterministic' LLM Settings
 - **Speaker:** Duc Dao (Solution Architect, Cloud Kinetics)
 - **Key Topics:**
-  - Explained that despite configuring temperature = 0 on commercial LLM APIs, output generation remains non-deterministic.
-  - Outlined technical causes: Non-associative GPU floating-point calculations during parallel processing, and dynamic request batching on multi-tenant inference platforms.
-  - Shared mitigation strategies: Majority Voting ensembles, self-hosting models with deterministic runtime limits, and structural output constraints (JSON Mode, Regex Grammar).
+  - Explained why commercial LLM API outputs remain non-deterministic even with `temperature = 0`.
+  - Analyzed root technical causes: Non-associative GPU floating-point arithmetic during parallel execution and dynamic request batching.
+  - Proposed mitigation strategies: Majority Voting ensembles, self-hosted models with deterministic bounds, and JSON Mode / Regex output formatting.
 
 #### 6. Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring
 - **Speaker:** Vy Lam (Senior Business Systems Analyst, VPBank)
 - **Key Topics:**
-  - Addressed the lack of traditional financial data when evaluating credit scores for startup businesses.
-  - Highlighted single-agent limitations: Context bottlenecks, low auditability, and higher failure rates in complex decisions.
-  - Proposed a virtual committee framework using a Multi-Agent system (specialized agents for finance, risk, market analysis) to achieve consensus.
-  - Business outcomes: Accelerated credit processing from weeks to hours (95% faster), cut manual analyst hours by 95%, and projected high multi-year ROI.
+  - Tackled credit scoring for startups lacking traditional financial history.
+  - Demonstrated how replacing a single LLM agent with a specialized **Multi-Agent System** (virtual credit committee) accelerated processing times from weeks to hours (95% faster) with high auditability.
+
+---
 
 ### Key Takeaways & Lessons Learned
 
-#### Architectural Design Mindset
-- **Edge Security and Optimization:** CloudFront is not just for caching assets but serves as a crucial edge defense line. Setting up S3 Gateway Endpoints and implementing optimized CDN packages can dramatically save network egress fees.
-- **Business-First Approach:** Tech implementations, particularly AI integrations, must align directly with the enterprise’s operational needs to yield real business value and ROI, rather than just chasing hype.
+1. **Architectural & Cloud Infrastructure Mindset:**
+   - **Edge Security Optimization:** CloudFront serves as a crucial edge defense layer (Security at Edge) to block DDoS attempts and offload traffic from backend origin servers, beyond merely caching static assets.
+   - **Managing LLM Constraints:** Understanding non-deterministic behavior enables developers to design robust fallback logic and strict output validation when integrating GenAI into backend APIs.
 
-#### Advanced GenAI Concepts
-- **Handling LLM Constraints:** Understanding non-determinism helps backend developers build fail-safes and structured grammars, avoiding absolute trust in raw LLM outputs.
-- **Multi-Agent Systems:** Transitioning from single-prompt chatbots to collaborative Multi-Agent systems is the key to solving complex business problems.
+2. **Community Spirit & Networking:**
+   - Experiencing the incredible energy from over 500 passionate attendees across two event floors provided great motivation for my internship journey.
+   - Reaffirmed a "Business-First" mindset: Technology and AI must serve real business needs and optimize human workflows to deliver actual ROI.
 
-### Applying to NodeJ2Car Project
-The knowledge gained from the event was applied to the design and implementation of the NodeJ2Car backend system:
-- **Edge Security & CDN:** Deployed the React frontend to S3 and distributed it via CloudFront with ACM SSL/TLS certificates and AWS WAF edge protection as completed in Week 12.
-- **Decoupled Asynchronous Processing:** Implemented Amazon SQS messaging queues at Week 5 to buffer and consume invoice webhooks, protecting the primary Express servers from spikes in traffic.
-- **Optimizing AI Scan Image API:** Applied filename/metadata sanitization and structured regex validation bounds to the AI parts scanning endpoint at Week 11 to reduce AI misclassification errors.
+---
+
+### Practical Application to Internship Project (NodeJ2Car)
+- **Edge Security & CDN:** Applied CloudFront CDN distribution with S3 static hosting, integrated with AWS WAF and SSL/TLS (ACM) certificates to secure the React Frontend application.
+- **Asynchronous Workloads:** Utilized decoupling concepts via Amazon S3 and SQS queues to buffer incoming webhook payloads and prevent main Express server congestion.
+
+---
 
 ### Event Photos
 <img alt="AWS Community Day Vietnam 2026" src="../../images/event1.jpg">
-
-### Personal Reflections
-AWS Community Day Vietnam 2026 offered an energetic, tech-driven atmosphere. Learning from top industry speakers broadened my technical horizons and created great networking opportunities. The event provided great inspiration throughout my internship.
 
 ---

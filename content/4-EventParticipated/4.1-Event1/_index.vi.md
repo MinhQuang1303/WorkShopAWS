@@ -10,86 +10,89 @@ pre: " <b> 4.1. </b> "
 ⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
 
-# Bài thu hoạch: AWS Community Day Vietnam 2026
+# Báo cáo thu hoạch: Ngày hội Cộng đồng HCM_FCAJ 2026 (AWS Community Day)
 
 ### Thông tin sự kiện
-- **Tên sự kiện:** AWS Community Day Vietnam 2026
-- **Thời gian:** Ngày 23 tháng 05 năm 2026 (08:00 - 17:00)
-- **Địa điểm:** Thành phố Hồ Chí Minh, Việt Nam
-- **Vai trò tham gia:** Người tham dự (Attendee)
+- **Tên sự kiện:** Ngày hội Cộng đồng HCM_FCAJ 2026 (FCAJ Community Day)
+- **Thời gian:** Thứ Bảy, 23/05/2026 (08:00 - 17:00)
+- **Địa điểm:** Văn phòng AWS Việt Nam, Tầng 26 & Tầng 36, Tòa nhà Bitexco / MPlaza, Thành phố Hồ Chí Minh, Việt Nam
+- **Quy mô:** Hơn 500 người tham dự (Lấp đầy toàn bộ hội trường chính tầng 26, phát trực tiếp sang khu vực tầng 36)
+- **Vai trò:** Sinh viên thực tập / Người tham dự
 
-### Mục đích của sự kiện
-AWS Community Day là hội nghị công nghệ quy mô lớn được tổ chức bởi cộng đồng AWS User Group Vietnam. Mục tiêu chính của sự kiện bao gồm:
-- Chia sẻ các xu hướng công nghệ mới nhất trong hệ sinh thái điện toán đám mây AWS, đặc biệt là Trí tuệ nhân tạo tạo sinh (GenAI), kiến trúc Serverless và thiết kế ứng dụng hiện đại.
-- Kết nối các kỹ sư phần mềm, Kiến trúc sư giải pháp (SA), AWS Community Builders và cộng đồng doanh nghiệp công nghệ tại Việt Nam.
-- Chia sẻ các giải pháp thực tế tốt nhất (best practices), các bài học chuyển đổi số và chiến lược tối ưu hóa chi phí đám mây từ các doanh nghiệp hàng đầu (GoTymeX, VPBank, Cloud Kinetics,...).
+---
 
-### Nội dung nổi bật từ các bài tham luận
+### Mục Đích Của Sự Kiện
+Ngày hội Cộng đồng HCM_FCAJ 2026 là sự kiện công nghệ quy mô lớn quy tụ hơn 500 sinh viên, kỹ sư đám mây và những người đam mê AI tại TP.HCM. Các mục tiêu chính của sự kiện bao gồm:
+- Chia sẻ kiến thức thực chiến về sự kết hợp giữa **Cloud & Generative AI (GenAI)**, tối ưu hóa hạ tầng đám mây AWS và phát triển ứng dụng hiện đại.
+- Tạo môi trường kết nối (networking) mạnh mẽ giữa sinh viên chương trình **First Cloud AI Journey (FCAJ)**, các diễn giả giàu kinh nghiệm và chuyên gia kiến trúc giải pháp AWS.
+- Truyền cảm hứng học tập liên tục thông qua trải nghiệm thực tế từ các cuộc thi Hackathon và case study triển khai đám mây trong doanh nghiệp.
 
-#### 1. Bối cảnh là tất cả - Cách làm cho AI thực sự hoạt động hiệu quả
-- **Diễn giả:** Anh Tính Trương (Platform Engineer, GoTymeX)
+---
+
+### Tóm Tắt Nội Dung Các Bài Thuyết Trình Nổi Bật
+
+Sự kiện bao gồm 6 phiên tham luận chuyên sâu xoay quanh hai trụ cột chính: **Hạ tầng đám mây (Cloud Infrastructure)** và **Trí tuệ nhân tạo (Generative AI)**.
+
+#### 1. Context Is Everything - Making AI Actually Work for You
+- **Diễn giả:** Anh Tịnh Trương (Platform Engineer, GoTymeX)
 - **Nội dung chính:**
-  - Chỉ ra nguyên nhân cốt lõi khiến các ứng dụng AI thường xuyên gặp hiện tượng "ảo tưởng" (hallucination) không hẳn do mô hình LLM yếu, mà do thiếu hụt ngữ cảnh (Context) cụ thể và phù hợp.
-  - Giới thiệu kiến trúc "Prompt to Memory Pipeline" – minh họa cách xây dựng các đường ống tiêm ngữ cảnh động và giải pháp lưu trữ bộ nhớ dài hạn cho AI.
-  - Chia sẻ kinh nghiệm làm việc hiệu quả cùng các trợ lý AI và định hướng phát triển kỹ năng cho sinh viên/lập trình viên trẻ trong kỷ nguyên trí tuệ nhân tạo.
+  - Phân tích lý do các ứng dụng AI thường gặp hiện tượng ảo giác (hallucination) xuất phát từ việc thiếu Ngữ cảnh (Context) cụ thể hơn là do mô hình LLM yếu.
+  - Giới thiệu kiến trúc "Prompt to Memory Pipeline", trình diễn cách đưa ngữ cảnh động (dynamic context injection) và tích hợp bộ nhớ dài hạn cho quy trình làm việc AI thực tế trong doanh nghiệp.
 
-#### 2. Trợ lý AI thân thiện với Amazon Quick
+#### 2. Friendly AI Assistant w/ Amazon Quick
 - **Diễn giả:** Chị Phạm Ngọc Hải Anh (G-AsiaPacific Vietnam, AWS Community Builder)
 - **Nội dung chính:**
-  - Phân tích điểm đau (pain points) của doanh nghiệp: Người dùng thuộc khối kinh doanh mất nhiều thời gian tìm kiếm dữ liệu phân mảnh từ nhiều hệ thống khác nhau.
-  - Giới thiệu "Amazon Quick", công cụ trợ lý AI được xây dựng trên nền tảng Amazon Bedrock, tích hợp hơn 40 trình kết nối dữ liệu bảo mật và khả năng tìm kiếm web thông minh.
-  - Case Study thực tế: Trợ lý dành cho Quản lý dự án (Project Manager) giúp tự động hóa việc tạo biên bản cuộc họp (MoM), dự thảo email và theo dõi tiến độ công việc của lập trình viên.
+  - Giải quyết rào cản trong doanh nghiệp khi người dùng tốn nhiều thời gian tra cứu dữ liệu phân mảnh ở nhiều hệ thống khác nhau.
+  - Giới thiệu "Amazon Quick", trợ lý AI phát triển trên nền tảng **Amazon Bedrock**, tích hợp hơn 40 cổng kết nối dữ liệu an toàn và khả năng tìm kiếm web thông minh.
+  - Trình diễn trợ lý quản lý dự án (PM) tự động tạo Biên bản cuộc họp (MoM), gửi email nhắc lịch và đồng bộ tiến độ của lập trình viên.
 
-#### 3. Từ Biên đến Nguồn: Lấy CloudFront làm nền tảng hạ tầng
+#### 3. From Edge to Origin: CloudFront as Your Foundation
 - **Diễn giả:** Anh Nguyễn Tuấn Thịnh (DevOps Engineer, First Cloud AI Journey)
 - **Nội dung chính:**
-  - Giải quyết bài toán chi phí khó lường trong mô hình tính phí CDN truyền thống (trả theo lưu lượng sử dụng).
-  - Đề xuất mô hình CDN chi phí cố định tối ưu bằng cách kết hợp Amazon CloudFront, AWS WAF, Route 53 và dịch vụ lưu trữ S3 nhằm tối ưu hóa ngân sách hàng tháng cho doanh nghiệp.
-  - Đi sâu vào cấu hình nâng cao: Bảo mật lớp biên (AWS Shield, WAF, Mutual TLS, chặn địa lý), thiết lập cơ chế dự phòng nguồn (Origin Failover), hỗ trợ giao thức HTTP/3 (QUIC) và tùy biến logic ở biên bằng CloudFront Functions hoặc Lambda@Edge.
+  - Giải quyết bài toán chi phí CDN thiếu ổn định bằng mô hình gói cước cố định kết hợp **Amazon CloudFront**, **AWS WAF**, **Route 53** và **S3**.
+  - Nhấn mạnh các cơ chế bảo mật biên (AWS Shield, WAF, Mutual TLS, chặn địa lý), cấu hình Origin Failover, hỗ trợ HTTP/3 (QUIC) và tùy biến logic tại vùng biên với CloudFront Functions / Lambda@Edge.
 
-#### 4. 36 giờ cùng LotusHacks: Hiện thực hóa UTMorpho từ ý tưởng
-- **Diễn giả:** Đội ngũ UTMorpho (Thành viên tham gia LotusHacks 2026)
+#### 4. 36 hrs with LotusHacks: Building UTMorpho from Idea to Reality
+- **Đại diện đội thi:** UTMorpho Team (Thành viên tham dự LotusHacks 2026)
 - **Nội dung chính:**
-  - Chia sẻ hành trình thiết kế và phát triển ứng dụng thiết kế tạo sinh "UTMorpho" chỉ trong khuôn khổ 36 giờ của cuộc thi hackathon.
-  - Kiến trúc hệ thống: Frontend ứng dụng React SPA lưu trữ trên S3 và phân phối qua CloudFront; Backend sử dụng API Gateway + Lambda kết nối dữ liệu với S3 và DynamoDB; Động cơ GenAI dựa trên Amazon Bedrock đảm nhận phân tích bản phác thảo hình ảnh, tạo bố cục UI và stream kết quả xem trước mã nguồn React trực tiếp.
-  - Bài học kinh nghiệm về xử lý giới hạn token, kiểm soát hiện tượng tạo thừa dữ liệu của AI và kỹ năng làm việc dưới áp lực thời gian cực hạn.
+  - Chia sẻ hành trình 36 giờ thiết kế và phát triển ứng dụng Generative Design "UTMorpho" tại cuộc thi Hackathon.
+  - Chi tiết kiến trúc Serverless: React SPA trên S3 + CloudFront, API Gateway + Lambda + DynamoDB, sử dụng Amazon Bedrock để phân tích bản phác thảo hình ảnh thành mã nguồn giao diện React xem trực tiếp.
 
-#### 5. Tính bất định của các thiết lập 'Định tính' trên LLM
+#### 5. Non-Determinism of 'Deterministic' LLM Settings
 - **Diễn giả:** Anh Đức Đào (Solution Architect, Cloud Kinetics)
 - **Nội dung chính:**
-  - Giải thích hiện tượng dù đã cấu hình tham số `temperature = 0` trên các API LLM thương mại, kết quả đầu ra trả về vẫn có tính bất định (non-deterministic).
-  - Phân tích nguyên nhân kỹ thuật: Do các phép tính dấu phẩy động trên GPU không có tính kết hợp khi xử lý song song, kết hợp với cơ chế gom cụm yêu cầu động (dynamic batching) trên các nền tảng inference đa người dùng.
-  - Chia sẻ chiến lược giảm thiểu rủi ro: Áp dụng kỹ thuật bỏ phiếu số đông (Majority Voting), tự triển khai mô hình với giới hạn runtime định tính, và áp đặt cấu trúc dữ liệu đầu ra (JSON Mode, cấu trúc Regex Grammar).
+  - Giải thích nguyên nhân kết quả trả về của LLM không hoàn toàn đồng nhất dù đã đặt tham số `temperature = 0`.
+  - Phân tích góc độ kỹ thuật: Do tính chất không kết hợp của phép toán số thực dấu phẩy động trên GPU khi tính toán song song và cơ chế gom cụm yêu cầu động (dynamic request batching).
+  - Đề xuất giải pháp: Sử dụng cơ chế bầu chọn đa số (Majority Voting), tự host mô hình với cấu hình deterministic chặt chẽ và ràng buộc định dạng đầu ra (JSON Mode / Regex).
 
-#### 6. Hệ thống Multi-Agent cấp doanh nghiệp: Bài toán chấm điểm tín dụng Startup
+#### 6. Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring
 - **Diễn giả:** Chị Vy Lâm (Senior Business Systems Analyst, VPBank)
 - **Nội dung chính:**
-  - Giải quyết thách thức thiếu hụt dữ liệu tài chính truyền thống khi đánh giá điểm tín dụng cho các doanh nghiệp khởi nghiệp (Startup).
-  - Phân tích hạn chế của hệ thống đơn tác tử (Single-Agent): Dễ bị nghẽn ngữ cảnh, khả năng kiểm toán thấp và tỷ lệ thất bại cao đối với các quyết định phức tạp.
-  - Đề xuất mô hình "Hội đồng ảo" sử dụng hệ thống Multi-Agent (phân tách các agent chuyên trách về tài chính, rủi ro, phân tích thị trường) để đạt được sự đồng thuận.
-  - Kết quả thực tế tại ngân hàng: Tốc độ xử lý hồ sơ tín dụng tăng 95% (từ vài tuần xuống vài giờ), cắt giảm 95% giờ làm việc thủ công của kiểm toán viên và dự kiến mang lại tỷ lệ ROI vượt trội.
+  - Giải quyết bài toán đánh giá điểm tín dụng cho các doanh nghiệp khởi nghiệp thiếu lịch sử tài chính truyền thống.
+  - Chứng minh việc thay thế 1 Agent đơn lẻ bằng **Hệ thống đa tác nhân (Multi-Agent System)** chuyên biệt giúp rút ngắn thời gian xử lý hồ sơ từ vài tuần xuống còn vài giờ (nhanh hơn 95%) với độ minh bạch cao.
 
-### Bài học rút ra & Tư duy tích lũy
+---
 
-#### Tư duy thiết kế kiến trúc đám mây
-- **Bảo mật và Tối ưu hóa tại Lớp biên:** CloudFront không chỉ đơn thuần làm nhiệm vụ lưu bộ nhớ đệm (cách tài nguyên tĩnh) mà còn đóng vai trò là lá chắn phòng thủ vòng ngoài cốt lõi. Việc thiết lập S3 Gateway Endpoints và tối ưu hóa các gói phân phối CDN giúp tiết kiệm đáng kể chi phí băng thông truyền tải dữ liệu ra ngoài (network egress fees).
-- **Tiếp cận dựa trên giá trị kinh doanh:** Mọi hoạt động triển khai công nghệ, đặc biệt là tích hợp công nghệ AI, phải xuất phát trực tiếp từ bài toán vận hành thực tế của doanh nghiệp để mang lại giá trị thực và ROI, tránh việc chạy theo xu hướng công nghệ thuần túy.
+### Những Bài Học Rút Ra & Trải Nghiệm Thực Tế
 
-#### Các khái niệm GenAI chuyên sâu
-- **Kiểm soát các hạn chế của LLM:** Việc thấu hiểu tính bất định (non-determinism) giúp lập trình viên backend chủ động xây dựng các cơ chế phòng ngừa lỗi và ràng buộc cú pháp chặt chẽ, không phụ thuộc hoàn toàn vào kết quả thô của LLM.
-- **Hệ thống đa tác tử (Multi-Agent):** Sự chuyển dịch từ các ứng dụng chatbot nhập liệu đơn lẻ sang hệ thống các Agent tương tác, cộng tác phối hợp là chìa khóa để giải quyết triệt để các bài toán nghiệp vụ phức tạp trong môi trường doanh nghiệp.
+1. **Tư Duy Kiến Trúc & Hạ Tầng Đám Mây:**
+   - **Tối ưu hóa bảo mật tại vùng biên:** CloudFront đóng vai trò là lớp phòng vệ biên thiết yếu (Security at Edge) giúp chặn các cuộc tấn công DDoS và giảm tải cho máy chủ Backend, thay vì chỉ đơn thuần là bộ nhớ đệm tài nguyên tĩnh.
+   - **Quản lý hạn chế của LLM:** Hiểu rõ tính chất không đồng nhất của mô hình ngôn ngữ lớn giúp lập trình viên thiết kế các cơ chế dự phòng và kiểm soát dữ liệu đầu ra chặt chẽ khi tích hợp AI vào API.
 
-### Ứng dụng thực tế vào dự án NodeJ2Car
-Những kiến thức thu nhận từ sự kiện đã được tôi nghiên cứu, đối chiếu và áp dụng trực tiếp vào quá trình thiết kế hệ thống backend cho nền tảng linh kiện ô tô **NodeJ2Car**:
-- **Bảo mật lớp biên & CDN:** Triển khai lưu trữ frontend React trên dịch vụ S3 và phân phối qua mạng lưới CloudFront kết hợp chứng chỉ bảo mật ACM SSL/TLS cùng tường lửa AWS WAF bảo mật lớp biên, tương ứng với nội dung thực tế hoàn thành ở **Tuần 12**.
-- **Xử lý bất đồng bộ tách rời (Decoupled Processing):** Áp dụng hệ thống hàng đợi tin nhắn Amazon SQS ở **Tuần 5** nhằm giảm tải và tiêu thụ dữ liệu webhook từ cổng thanh toán, bảo vệ máy chủ Express chính khỏi các đợt lưu lượng tăng đột biến.
-- **Tối ưu hóa API quét hình ảnh bằng AI:** Ứng dụng kỹ thuật làm sạch siêu dữ liệu/tên file và bổ sung các ràng buộc dữ liệu đầu ra bằng mã Regex nghiêm ngặt cho endpoint quét linh kiện AI tại **Tuần 11** để giảm thiểu tối đa tỷ lệ phân loại sai của mô hình AI Bedrock.
+2. **Tinh Thần Cộng Đồng & Kết Nối:**
+   - Cảm nhận nguồn năng lượng học tập tích cực từ hơn 500 người tham dự tại hai tầng hội trường sự kiện tạo thêm nhiều động lực cho hành trình thực tập.
+   - Củng cố tư duy "Business-First": Công nghệ và AI phải xuất phát từ nhu cầu thực tế của doanh nghiệp để tối ưu quy trình vận hành và mang lại giá trị ROI rõ ràng.
+
+---
+
+### Ứng Dụng Thực Tế Vào Dự Án Thực Tập (NodeJ2Car)
+- **Phân phối nội dung & Bảo mật biên:** Triển khai ứng dụng React Frontend lên S3 kết hợp CloudFront CDN, AWS WAF và chứng chỉ SSL/TLS (ACM) để bảo mật ứng dụng.
+- **Xử lý tác vụ bất đồng bộ:** Áp dụng tư duy phân tách hệ thống (decoupling) qua hàng đợi Amazon SQS để tiếp nhận webhook và tránh gây tắc nghẽn cho máy chủ Express chính.
+
+---
 
 ### Hình ảnh ghi nhận tại sự kiện
 <img alt="AWS Community Day Vietnam 2026" src="../../../images/event1.jpg">
 
-
-### Cảm nhận cá nhân
-Sự kiện AWS Community Day Vietnam 2026 mang lại bầu không khí công nghệ vô cùng sôi động và nhiệt huyết. Những bài chia sẻ từ các chuyên gia đầu ngành không chỉ giúp tôi mở rộng góc nhìn kỹ thuật về hạ tầng đám mây và AI thực tế, mà còn mở ra cơ hội kết nối, học hỏi quý báu. Đây chính là nguồn động lực lớn cổ vũ tinh thần nghiên cứu của tôi trong suốt giai đoạn thực tập.
-
 ---
+

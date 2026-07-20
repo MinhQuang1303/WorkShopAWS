@@ -1,59 +1,26 @@
 ---
 title: "Worklog Tuần 5"
-date: 2024-01-01
-weight: 1
+date: 2026-06-02
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 5:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Thực hành khởi tạo máy chủ Amazon EC2, sao lưu với AWS Backup và lưu trữ Amazon S3.
+* Cấu hình lưu trữ trang web tĩnh Static Website Hosting trên S3 kết hợp CDN Amazon CloudFront.
+* Tìm hiểu tính năng quản lý phiên bản Bucket Versioning và sao chép dữ liệu Replication.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| Thứ 2 | Thực hành khởi tạo máy chủ EC2 Linux, thiết lập Security Group và kết nối qua SSH. | 02/06/2026 | 02/06/2026 | EC2 User Guide |
+| Thứ 3 | Tìm hiểu dịch vụ Amazon S3, thực hành tạo Bucket và bật tính năng Versioning. | 03/06/2026 | 03/06/2026 | S3 User Guide |
+| Thứ 4 | Cấu hình Static Website Hosting trên Amazon S3 và phân quyền public read Policy. | 04/06/2026 | 04/06/2026 | S3 Hosting Guide |
+| Thứ 5 | Tích hợp Amazon CloudFront với S3 Bucket để tăng tốc độ phân phối trang web tĩnh. | 05/06/2026 | 06/06/2026 | CloudFront Guide |
+| Chủ Nhật | Tìm hiểu cơ chế Cross-Region Replication trên S3 và cấu hình lập lịch sao lưu tự động với AWS Backup. | 07/06/2026 | 08/06/2026 | AWS Backup Guide |
 
 ### Kết quả đạt được tuần 5:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Quản lý thành thạo EC2 và thiết lập kế hoạch sao lưu hệ thống tự động qua AWS Backup.
+* Triển khai thành công website tĩnh trên Amazon S3 và tối ưu tốc độ phản hồi qua CloudFront.
+* Hiểu rõ cơ chế chống mất mát dữ liệu nhờ Bucket Versioning và S3 Replication.

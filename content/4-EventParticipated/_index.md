@@ -1,44 +1,31 @@
 ---
 title: "Events Participated"
-date: 2024-01-01
+date: 2026-07-16T16:43:00+07:00
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
 {{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** for your report, including this warning.
+⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
 {{% /notice %}}
 
-> In this section, you should list and describe in detail the events you have participated in during your internship or work experience.  
-> 
-> Each event should be presented in the format Event 1, Event 2, Event 3…, along with the following details:
-> * Event name
-> * Date and time
-> * Location (if applicable)
-> * Your role in the event (attendee, event support, speaker, etc.)
-> * A brief description of the event’s content and main activities
-> * Outcomes or value gained (lessons learned, new skills, contribution to the team/project)
-> * This listing helps demonstrate your actual participation as well as the soft skills and experience you have gained from each event.
+During my 12-week internship in the **AWS Workforce Bootcamp – First Cloud AI Journey** program, I had the opportunity to participate in major technology conferences and community events. Each event was a memorable experience that provided new, insightful, and practical knowledge, along with wonderful moments connecting with AWS solution architects, industry experts, and fellow cloud enthusiasts.
 
-During my internship, I participated in two events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
+Below is a summary of the events I participated in:
 
-### [Event 1](4.1-Event1/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
-
-&emsp;**Date & Time:** 09:00, August 13, 2025  
-
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
-&emsp;**Role:** Attendee  
+### [4.1. Event 1: HCM_FCAJ Community Day 2026 (AWS Community Day)](4.1-event1/)
+* **Event Name:** HCM_FCAJ Community Day 2026 (AWS Community Day Vietnam)
+* **Date & Time:** May 23, 2026 (08:00 - 17:00)
+* **Location:** AWS Vietnam Office, 26th & 36th Floor, Bitexco / MPlaza Building, Ho Chi Minh City
+* **Role:** Student Intern / Attendee
+* **Key Content:** Deep-dive technical sessions on GenAI Context Pipelines, Amazon Bedrock, Edge Security with CloudFront/WAF, Non-deterministic LLM behaviors, and Enterprise Multi-Agent Systems.
 
 ---
 
-### [Event 2](4.2-Event2/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
-
-&emsp;**Date & Time:** 09:00, August 13, 2025  
-
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
-&emsp;**Role:** Attendee  
+### [4.2. Event 2: Swinburne Cloud Mastery 2026](4.2-event2/)
+* **Event Name:** Swinburne Cloud Mastery 2026
+* **Date & Time:** July 04, 2026 (08:30 - 12:00)
+* **Location:** Swinburne Vietnam HCMC Campus, A35 Bạch Đằng Street, Tân Bình District, Ho Chi Minh City
+* **Role:** Student Intern / Attendee
+* **Key Content:** Panel discussions on Cloud career trends, real-world Data Architecture challenges, fireside chats on tech leadership, and strategies to bridge academic learning with production-ready deployments.
