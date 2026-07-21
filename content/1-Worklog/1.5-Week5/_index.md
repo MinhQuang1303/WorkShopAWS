@@ -14,11 +14,11 @@ pre: " <b> 1.5. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| Mon | Launch an EC2 Linux instance, configure Security Groups, and connect via SSH. | 06/02/2026 | 06/02/2026 | EC2 User Guide |
-| Tue | Explore Amazon S3, create buckets, and enable S3 Bucket Versioning. | 06/03/2026 | 06/03/2026 | S3 User Guide |
-| Wed | Configure Static Website Hosting on Amazon S3 with appropriate Bucket Policies. | 06/04/2026 | 06/04/2026 | S3 Hosting Guide |
-| Thu | Integrate Amazon CloudFront CDN with S3 for fast content delivery. | 06/05/2026 | 06/06/2026 | CloudFront Guide |
-| Sun | Configure S3 Cross-Region Replication and schedule automated backups via AWS Backup. | 06/07/2026 | 06/08/2026 | AWS Backup Guide |
+| Tue | Launch an EC2 Linux instance, configure Security Groups, and connect via SSH. | 02/06/2026 | 02/06/2026 | EC2 User Guide |
+| Wed | Explore Amazon S3, create buckets, and enable S3 Bucket Versioning. | 03/06/2026 | 03/06/2026 | S3 User Guide |
+| Thu | Configure Static Website Hosting on Amazon S3 with appropriate Bucket Policies. | 04/06/2026 | 04/06/2026 | S3 Hosting Guide |
+| Fri | Integrate Amazon CloudFront CDN with S3 for fast content delivery. | 05/06/2026 | 06/06/2026 | CloudFront Guide |
+| Mon | Configure S3 Cross-Region Replication and schedule automated backups via AWS Backup. | 07/06/2026 | 08/06/2026 | AWS Backup Guide |
 
 ### Week 5 Achievements:
 * Successfully managed EC2 instances and automated backup plans using AWS Backup.

@@ -14,10 +14,10 @@ pre: " <b> 1.9. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| Mon | Prepare materials and review database questions prior to office training. | 06/30/2026 | 07/01/2026 | AWS Preparation |
-| Wed | Frontend development: Build Login/Register UI and User Management views. | 07/02/2026 | 07/03/2026 | Authentication UI |
-| Sat | **Attend AWS Vietnam Office Training (07/04)**: Deep-dive session on RDS, Aurora, and DMS. | 07/04/2026 | 07/04/2026 | AWS On-site Training |
-| Sun | Re-run advanced RDS, Aurora & DMS labs post-onsite training. | 07/05/2026 | 07/06/2026 | Advanced DB Labs |
+| Tue | Prepare materials and review database questions prior to office training. | 30/06/2026 | 01/07/2026 | AWS Preparation |
+| Thu | Frontend development: Build Login/Register UI and User Management views. | 02/07/2026 | 03/07/2026 | Authentication UI |
+| Sat | **Attend AWS Vietnam Office Training (07/04)**: Deep-dive session on RDS, Aurora, and DMS. | 04/07/2026 | 04/07/2026 | AWS On-site Training |
+| Sun | Re-run advanced RDS, Aurora & DMS labs post-onsite training. | 05/07/2026 | 06/07/2026 | Advanced DB Labs |
 
 ### Week 9 Achievements:
 * Received direct guidance from AWS experts on database architecture design.

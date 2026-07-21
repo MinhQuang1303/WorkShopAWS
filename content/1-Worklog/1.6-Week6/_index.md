@@ -14,11 +14,11 @@ pre: " <b> 1.6. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| Mon | Overview of Amazon RDS and compare storage types (EBS, EFS, S3). | 06/09/2026 | 06/09/2026 | AWS Storage & RDS Guide |
-| Tue | Provision an Amazon RDS MySQL instance in a Private Subnet and test connection. | 06/10/2026 | 06/10/2026 | RDS Lab Guide |
-| Wed | Set up Frontend workspace structure for the project website. | 06/11/2026 | 06/12/2026 | Frontend Workspace |
-| Fri | Design UI/UX layout for primary pages (Home, About, Documentation). | 06/13/2026 | 06/14/2026 | Figma / UI Design |
-| Sun | Update initial introductive content and assets onto the web interface. | 06/15/2026 | 06/15/2026 | Content Management |
+| Tue | Overview of Amazon RDS and compare storage types (EBS, EFS, S3). | 09/06/2026 | 09/06/2026 | AWS Storage & RDS Guide |
+| Wed | Provision an Amazon RDS MySQL instance in a Private Subnet and test connection. | 10/06/2026 | 10/06/2026 | RDS Lab Guide |
+| Thu | Set up Frontend workspace structure for the project website. | 11/06/2026 | 12/06/2026 | Frontend Workspace |
+| Sat | Design UI/UX layout for primary pages (Home, About, Documentation). | 13/06/2026 | 14/06/2026 | Figma / UI Design |
+| Mon | Update initial introductive content and assets onto the web interface. | 15/06/2026 | 15/06/2026 | Content Management |
 
 ### Week 6 Achievements:
 * Acquired solid knowledge of Amazon RDS operation and AWS storage categorization.

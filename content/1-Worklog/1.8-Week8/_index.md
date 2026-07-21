@@ -14,11 +14,11 @@ pre: " <b> 1.8. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| Mon | Study Amazon Aurora architecture (High Performance & Auto-scaling Storage). | 06/23/2026 | 06/23/2026 | Amazon Aurora Docs |
-| Tue | Hands-on lab: Perform database migration using AWS Database Migration Service (DMS). | 06/24/2026 | 06/25/2026 | AWS DMS Lab Guide |
-| Thu | Build and structure components for Workshop and Lab section pages. | 06/26/2026 | 06/27/2026 | Web Components |
-| Sat | Draw and embed AWS architecture diagrams to enrich guide articles. | 06/28/2026 | 06/28/2026 | Draw.io Diagrams |
-| Sun | Audit layout rendering, adjust CSS/typography for optimal reading experience. | 06/29/2026 | 06/29/2026 | Visual Testing |
+| Tue | Study Amazon Aurora architecture (High Performance & Auto-scaling Storage). | 23/06/2026 | 23/06/2026 | Amazon Aurora Docs |
+| Wed | Hands-on lab: Perform database migration using AWS Database Migration Service (DMS). | 24/06/2026 | 25/06/2026 | AWS DMS Lab Guide |
+| Fri | Build and structure components for Workshop and Lab section pages. | 26/06/2026 | 27/06/2026 | Web Components |
+| Sun | Draw and embed AWS architecture diagrams to enrich guide articles. | 28/06/2026 | 28/06/2026 | Draw.io Diagrams |
+| Mon | Audit layout rendering, adjust CSS/typography for optimal reading experience. | 29/06/2026 | 29/06/2026 | Visual Testing |
 
 ### Week 8 Achievements:
 * Mastered zero-downtime database migration concepts using AWS DMS.

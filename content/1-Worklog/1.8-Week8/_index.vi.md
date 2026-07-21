@@ -1,26 +1,26 @@
 ---
-title: "Worklog Tuần 8"
+title: "Nhật ký công việc Tuần 8"
 date: 2026-06-23
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-### Mục tiêu tuần 8:
-* Thực hành chuyển đổi cơ sở dữ liệu với Database Migration Service (DMS) và Amazon Aurora.
-* Hoàn thiện cấu trúc nội dung các trang Workshop và Lab hướng dẫn.
-* Tinh chỉnh giao diện người dùng và bổ sung hình ảnh sơ đồ minh họa.
+### Mục tiêu Tuần 8:
+* Thực hành chuyển đổi cơ sở dữ liệu với AWS DMS và tìm hiểu Amazon Aurora.
+* Hoàn thiện cấu trúc và nội dung cho các trang hướng dẫn Workshop và Lab.
+* Tối ưu kiểu dáng giao diện người dùng và chèn các sơ đồ kiến trúc.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+### Các công việc thực hiện trong tuần:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | Tìm hiểu kiến trúc cao cấp của Amazon Aurora (High Performance & Auto-scaling Storage). | 23/06/2026 | 23/06/2026 | Amazon Aurora Docs |
-| Thứ 3 | Thực hành bài Lab chuyển đổi dữ liệu sử dụng AWS Database Migration Service (DMS). | 24/06/2026 | 25/06/2026 | AWS DMS Lab Guide |
-| Thứ 5 | Xây dựng và hoàn thiện cấu trúc hiển thị cho các trang chuyên mục Workshop và Lab. | 26/06/2026 | 27/06/2026 | Web Components |
-| Thứ 7 | Vẽ và chèn thêm các sơ đồ kiến trúc hạ tầng AWS minh họa cho nội dung bài viết. | 28/06/2026 | 28/06/2026 | Draw.io Diagrams |
-| Chủ Nhật | Rà soát lỗi hiển thị giao diện, tinh chỉnh CSS/Font chữ cho trải nghiệm đọc tốt nhất. | 29/06/2026 | 29/06/2026 | Visual Testing |
+| Thứ 3 | Tìm hiểu kiến trúc Amazon Aurora (Hiệu năng cao & Tự động mở rộng lưu trữ). | 23/06/2026 | 23/06/2026 | Tài liệu Amazon Aurora |
+| Thứ 4 | Thực hành Lab: Thực hiện chuyển đổi cơ sở dữ liệu bằng AWS DMS. | 24/06/2026 | 25/06/2026 | Hướng dẫn Lab AWS DMS |
+| Thứ 6 | Xây dựng và cấu trúc các component cho trang Workshop và Lab. | 26/06/2026 | 27/06/2026 | Web Components |
+| Chủ Nhật | Vẽ và nhúng các sơ đồ kiến trúc AWS để bổ trợ cho nội dung bài viết. | 28/06/2026 | 28/06/2026 | Sơ đồ Draw.io |
+| Thứ 2 | Kiểm tra hiển thị bố cục, điều chỉnh CSS/phông chữ để tối ưu trải nghiệm đọc. | 29/06/2026 | 29/06/2026 | Kiểm thử giao diện |
 
-### Kết quả đạt được tuần 8:
-* Nắm chắc quy trình chuyển đổi Database không gián đoạn dịch vụ bằng AWS DMS.
-* Các trang Workshop và Lab được bổ sung đầy đủ sơ đồ trực quan, giúp người đọc dễ tiếp thu.
-* Mọi lỗi nhỏ về bố cục giao diện đã được khắc phục triệt để.
+### Kết quả đạt được trong Tuần 8:
+* Nắm vững các khái niệm chuyển đổi CSDL không gián đoạn (zero-downtime) bằng AWS DMS.
+* Bổ sung đầy đủ sơ đồ kiến trúc trực quan cho các trang bài lab và workshop.
+* Khắc phục các lỗi nhỏ về giao diện UI và tối ưu kiểu chữ hiển thị trên web.

@@ -1,25 +1,25 @@
 ---
-title: "Worklog Tuần 11"
+title: "Nhật ký công việc Tuần 11"
 date: 2026-07-14
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-### Mục tiêu tuần 11:
-* Rà soát và hoàn thiện toàn bộ các chức năng còn thiếu của hệ thống.
-* Kiểm thử toàn diện (End-to-End testing), sửa các lỗi phát sinh và tối ưu hiệu năng toàn website.
-* Phát triển Frontend: Chốt giao diện cuối cùng, đồng bộ dữ liệu Backend chuẩn bị triển khai (Deploy).
+### Mục tiêu Tuần 11:
+* Rà soát và hoàn thiện tất cả các tính năng hệ thống còn lại.
+* Thực hiện kiểm thử toàn trình (End-to-End), sửa lỗi và tối ưu hiệu năng website.
+* Phát triển Frontend: Hoàn thiện bố cục UI, đồng bộ dữ liệu Frontend/Backend sẵn sàng triển khai.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+### Các công việc thực hiện trong tuần:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | Rà soát danh sách yêu cầu hệ thống, bổ sung các nút bấm và luồng thao tác còn thiếu. | 14/07/2026 | 15/07/2026 | Requirement Review |
-| Thứ 4 | Thực hiện kiểm thử toàn diện (End-to-End Testing) trên nhiều trình duyệt và màn hình khác nhau. | 16/07/2026 | 17/07/2026 | E2E Testing Plan |
-| Thứ 6 | Tối ưu hóa việc đồng bộ dữ liệu giữa Frontend và Backend, giảm thiểu các request dư thừa. | 18/07/2026 | 19/07/2026 | Data Sync Optimization |
-| Chủ Nhật | Đóng gói sản phẩm Frontend, kiểm tra môi trường Production chuẩn bị triển khai chính thức. | 20/07/2026 | 20/07/2026 | Deployment Prep |
+| Thứ 3 | Rà soát yêu cầu hệ thống và xây dựng các thành phần UI/quy trình còn lại. | 14/07/2026 | 15/07/2026 | Rà soát yêu cầu |
+| Thứ 5 | Thực hiện kiểm thử toàn trình (E2E) trên nhiều trình duyệt và kích thước màn hình. | 16/07/2026 | 17/07/2026 | Kế hoạch kiểm thử E2E |
+| Thứ 7 | Tối ưu đồng bộ dữ liệu Frontend-Backend và loại bỏ các lời gọi API dư thừa. | 18/07/2026 | 19/07/2026 | Tối ưu đồng bộ dữ liệu |
+| Thứ 2 | Đóng gói bản Production build và chuẩn bị môi trường cho việc triển khai lên Cloud. | 20/07/2026 | 20/07/2026 | Chuẩn bị triển khai |
 
-### Kết quả đạt được tuần 11:
-* Hệ thống được kiểm thử kỹ lưỡng, loại bỏ hoàn toàn các lỗi giao diện và lỗi kết nối API.
-* Dữ liệu Frontend - Backend được đồng bộ chính xác theo thời gian thực.
-* Sản phẩm hoàn thiện 100% về mặt tính năng, sẵn sàng đưa lên môi trường Cloud.
+### Kết quả đạt được trong Tuần 11:
+* Kiểm thử kỹ lưỡng ứng dụng, xử lý triệt để các lỗi UI và lỗi API.
+* Đạt được sự đồng bộ dữ liệu thời gian thực chính xác giữa Frontend và Backend.
+* Bản đóng gói Production đã sẵn sàng 100% để triển khai lên AWS Cloud.

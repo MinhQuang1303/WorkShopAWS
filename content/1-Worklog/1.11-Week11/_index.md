@@ -14,10 +14,10 @@ pre: " <b> 1.11. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| Tue | Review system requirements and build remaining UI components/workflows. | 07/14/2026 | 07/15/2026 | Requirement Review |
-| Thu | Execute End-to-End (E2E) testing across multiple browsers and screen sizes. | 07/16/2026 | 07/17/2026 | E2E Testing Plan |
-| Sat | Optimize Frontend-Backend data synchronization and eliminate redundant API calls. | 07/18/2026 | 07/19/2026 | Data Sync Optimization |
-| Sun | Package production build and prepare environment for final cloud deployment. | 07/20/2026 | 07/20/2026 | Deployment Prep |
+| Tue | Review system requirements and build remaining UI components/workflows. | 14/07/2026 | 15/07/2026 | Requirement Review |
+| Thu | Execute End-to-End (E2E) testing across multiple browsers and screen sizes. | 16/07/2026 | 17/07/2026 | E2E Testing Plan |
+| Sat | Optimize Frontend-Backend data synchronization and eliminate redundant API calls. | 18/07/2026 | 19/07/2026 | Data Sync Optimization |
+| Mon | Package production build and prepare environment for final cloud deployment. | 20/07/2026 | 20/07/2026 | Deployment Prep |
 
 ### Week 11 Achievements:
 * Thoroughly tested the application and eliminated UI bugs and API errors.

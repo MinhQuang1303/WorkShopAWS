@@ -14,11 +14,11 @@ pre: " <b> 1.4. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| Mon | Learn about Amazon Route 53 DNS service and Hybrid Networking models. | 05/26/2026 | 05/26/2026 | Route 53 User Guide |
-| Tue | Hands-on lab: Establish secure internal connectivity using VPC Peering. | 05/27/2026 | 05/27/2026 | VPC Peering Lab |
-| Wed | Study AWS Transit Gateway for centralized Multi-VPC network architectures. | 05/28/2026 | 05/29/2026 | Transit Gateway Guide |
-| Fri | Configure Security Groups (SG) and Network Access Control Lists (NACL) for VPC protection. | 05/30/2026 | 05/31/2026 | VPC Security Guide |
-| Sun | Conduct network connectivity tests and evaluate overall infrastructure security. | 06/01/2026 | 06/01/2026 | Testing Checklist |
+| Tue | Learn about Amazon Route 53 DNS service and Hybrid Networking models. | 26/05/2026 | 26/05/2026 | Route 53 User Guide |
+| Wed | Hands-on lab: Establish secure internal connectivity using VPC Peering. | 27/05/2026 | 27/05/2026 | VPC Peering Lab |
+| Thu | Study AWS Transit Gateway for centralized Multi-VPC network architectures. | 28/05/2026 | 29/05/2026 | Transit Gateway Guide |
+| Sat | Configure Security Groups (SG) and Network Access Control Lists (NACL) for VPC protection. | 30/05/2026 | 31/05/2026 | VPC Security Guide |
+| Mon | Conduct network connectivity tests and evaluate overall infrastructure security. | 01/06/2026 | 01/06/2026 | Testing Checklist |
 
 ### Week 4 Achievements:
 * Configured VPC Peering for seamless private communication between distinct VPCs.

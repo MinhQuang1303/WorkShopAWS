@@ -1,26 +1,26 @@
 ---
-title: "Worklog Tuần 2"
+title: "Nhật ký công việc Tuần 2"
 date: 2026-05-12
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-### Mục tiêu tuần 2:
-* Tìm hiểu kiến thức nâng cao về AWS IAM và mô hình Shared Responsibility.
-* Thực hành khởi tạo và phân quyền cho IAM User, Group và IAM Role.
-* Làm quen với hệ thống AWS Support và các dịch vụ quản lý tài khoản.
+### Mục tiêu Tuần 2:
+* Hiểu sâu về AWS IAM và Mô hình Trách nhiệm Chung (Shared Responsibility Model).
+* Thực hành tạo và quản lý IAM Users, Groups, Policies, và Roles.
+* Làm quen với các gói AWS Support và các công cụ quản lý tài khoản.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+### Các công việc thực hiện trong tuần:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | Nghiên cứu mô hình trách nhiệm chung (Shared Responsibility Model) trên AWS. | 12/05/2026 | 12/05/2026 | AWS Security Guide |
-| Thứ 3 | Tìm hiểu cơ chế quản lý truy cập và phân quyền tối thiểu (Least Privilege) của IAM. | 13/05/2026 | 13/05/2026 | AWS IAM Documentation |
-| Thứ 4 | Thực hành bài Lab tạo IAM User, gán vào IAM Group và thiết lập IAM Policies. | 14/05/2026 | 14/05/2026 | IAM Lab Guide |
-| Thứ 5 | Thực hành cấu hình IAM Role cấp quyền truy cập an toàn giữa các dịch vụ AWS. | 15/05/2026 | 16/05/2026 | IAM Role Guide |
-| Thứ 6 | Tìm hiểu các gói AWS Support Plans và cách gửi yêu cầu hỗ trợ kỹ thuật. | 17/05/2026 | 18/05/2026 | AWS Support Center |
+| Thứ 3 | Tìm hiểu Mô hình Trách nhiệm Chung giữa AWS và khách hàng. | 12/05/2026 | 12/05/2026 | Hướng dẫn Bảo mật AWS |
+| Thứ 4 | Hiểu Nguyên tắc Quyền Tối thiểu (Least Privilege) và các cơ chế truy cập IAM. | 13/05/2026 | 13/05/2026 | Tài liệu AWS IAM |
+| Thứ 5 | Thực hành Lab: Tạo IAM Users, gán vào Groups và gán IAM Policies. | 14/05/2026 | 14/05/2026 | Hướng dẫn Lab IAM |
+| Thứ 6 | Thực hành Lab: Cấu hình IAM Roles để truy cập an toàn giữa các dịch vụ. | 15/05/2026 | 16/05/2026 | Hướng dẫn IAM Role |
+| Thứ 7 | Tìm hiểu về các gói AWS Support và cách gửi yêu cầu hỗ trợ kỹ thuật (support ticket). | 17/05/2026 | 18/05/2026 | Trung tâm Hỗ trợ AWS |
 
-### Kết quả đạt được tuần 2:
-* Hiểu rõ ranh giới trách nhiệm bảo mật giữa AWS và người dùng.
-* Quản lý thành thạo IAM Users, Groups, Roles và áp dụng đúng nguyên tắc phân quyền tối thiểu.
-* Biết cách khai thác AWS Support và quản lý tài khoản hiệu quả.
+### Kết quả đạt được trong Tuần 2:
+* Nắm rõ ranh giới bảo mật theo Mô hình Trách nhiệm Chung.
+* Thành thạo kiểm soát truy cập IAM tuân thủ Nguyên tắc Quyền Tối thiểu.
+* Học được cách quản lý tài khoản AWS hiệu quả và tận dụng dịch vụ AWS Support.
