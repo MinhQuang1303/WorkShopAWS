@@ -6,15 +6,13 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+
 
 # Báo cáo thu hoạch: Swinburne Cloud Mastery 2026
 
 ### Thông tin sự kiện
 - **Tên sự kiện:** Swinburne Cloud Mastery 2026 (Tinh thông Đám mây Swinburne 2026)
-- **Thời gian:** 04/07/2026 (08:30 - 12:00)
+- **Thời gian:** 04/07/2026 (09:00 - 12:00)
 - **Địa điểm:** Văn phòng AWS Việt Nam, Tầng 26 , Tòa nhà Bitexco / MPlaza, Thành phố Hồ Chí Minh, Việt Nam
 - **Quy mô:** Tọa đàm truyền cảm hứng kết nối sinh viên Swinburne TP.HCM, sinh viên Cần Thơ cùng các chuyên gia Cloud/AI
 - **Vai trò:** Sinh viên thực tập / Người tham dự

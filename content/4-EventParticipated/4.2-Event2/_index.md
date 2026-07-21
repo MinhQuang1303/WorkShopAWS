@@ -10,7 +10,7 @@ pre: " <b> 4.2. </b> "
 
 ### Event Information
 - **Event Name:** Swinburne Cloud Mastery 2026
-- **Date & Time:** July 04, 2026 (08:30 - 12:00)
+- **Date & Time:** July 04, 2026 (09:00 - 12:00)
 - **Location:** AWS Vietnam Office, 26th Floor, Bitexco / MPlaza Building, Ho Chi Minh City, Vietnam
 - **Scale:** Inspiring panel event connecting Swinburne students (HCMC & Can Tho campuses) with Cloud/AI industry experts
 - **Role:** Student Intern / Attendee

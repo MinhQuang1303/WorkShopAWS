@@ -3,8 +3,10 @@ relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
 
+# Theme
 theme = "hugo-theme-learn"
 
+# Search
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
@@ -17,11 +19,12 @@ showVisitedLinks = true
 disableBreadcrumb = false
 disableNextPrev = false
 
+############################
+# Languages
+############################
+
 [Languages]
 
-########################
-# English
-########################
 [Languages.en]
 title = "Internship Report"
 weight = 1
@@ -39,9 +42,6 @@ identifier = "AWS Study Group FB"
 url = "https://www.facebook.com/groups/awsstudygroupfcj"
 weight = 30
 
-########################
-# Vietnamese
-########################
 [Languages.vi]
 title = "Báo cáo thực tập"
 weight = 2
@@ -58,6 +58,10 @@ name = "<i class='fab fa-facebook'></i> AWS Study Group - Nhóm FB"
 identifier = "AWS Study Group FB"
 url = "https://www.facebook.com/groups/awsstudygroupfcj"
 weight = 30
+
+############################
+# Markdown
+############################
 
 [markup]
   [markup.goldmark]

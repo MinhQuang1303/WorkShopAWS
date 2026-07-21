@@ -6,15 +6,12 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 # Báo cáo thu hoạch: Ngày hội Cộng đồng HCM_FCAJ 2026 (AWS Community Day)
 
 ### Thông tin sự kiện
 - **Tên sự kiện:** Ngày hội Cộng đồng HCM_FCAJ 2026 (FCAJ Community Day)
-- **Thời gian:** Thứ Bảy, 23/05/2026 (08:00 - 17:00)
+- **Thời gian:** Thứ Bảy, 23/05/2026 (09:00 - 12:00)
 - **Địa điểm:** Văn phòng AWS Việt Nam, Tầng 26 & Tầng 36, Tòa nhà Bitexco / MPlaza, Thành phố Hồ Chí Minh, Việt Nam
 - **Quy mô:** Hơn 500 người tham dự (Lấp đầy toàn bộ hội trường chính tầng 26, phát trực tiếp sang khu vực tầng 36)
 - **Vai trò:** Sinh viên thực tập / Người tham dự

@@ -11,7 +11,7 @@ pre: " <b> 4.1. </b> "
 
 ### Event Information
 - **Event Name:** HCM_FCAJ Community Day 2026 (FCAJ Community Day)
-- **Date & Time:** Saturday, May 23, 2026 (08:00 - 17:00)
+- **Date & Time:** Saturday, May 23, 2026 (09:00- 12:00)
 - **Location:** AWS Vietnam Office, 26th & 36th Floor, Bitexco / MPlaza Building, Ho Chi Minh City, Vietnam
 - **Scale:** Over 500 attendees (Fully packed main auditorium on 26th floor, live-streamed to 36th floor overflow area)
 - **Role:** Student Intern / Attendee

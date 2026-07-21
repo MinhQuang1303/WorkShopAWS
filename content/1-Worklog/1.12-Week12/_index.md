@@ -6,7 +6,6 @@ chapter: false
 pre: "<b>1.12.</b>"
 ---
 
-# Week 12 Worklog
 
 ## Week 12 Objectives
 
