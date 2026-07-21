@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://minhquang1303.github.io/WorkShopAWS/en/sitemap.xml</loc>
+    <loc>http://localhost:1313/WorkShopAWS/en/sitemap.xml</loc>
     
       <lastmod>2026-07-21T00:00:00+07:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://minhquang1303.github.io/WorkShopAWS/vi/sitemap.xml</loc>
+    <loc>http://localhost:1313/WorkShopAWS/vi/sitemap.xml</loc>
     
       <lastmod>2026-07-21T00:00:00+07:00</lastmod>
     

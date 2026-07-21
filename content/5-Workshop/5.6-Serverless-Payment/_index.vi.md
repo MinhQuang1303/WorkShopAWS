@@ -39,7 +39,7 @@ sequenceDiagram
 4. Giữ các cấu hình mặc định (Message retention period: 4 ngày) và nhấn **Create Queue**.
 5. Sao chép lại **Queue URL** (ví dụ: `https://sqs.ap-southeast-1.amazonaws.com/123456789012/payment-queue`).
 
-![Hàng đợi tin nhắn Amazon SQS được khởi tạo thành công](/images/5-Workshop/5.6-Serverless-Payment/7-sqs.png)
+![Hàng đợi tin nhắn Amazon SQS được khởi tạo thành công](/WorkShopAWS/images/5-Workshop/5.6-Serverless-Payment/7-sqs.png)
 
 #### 2. Cấu hình Backend Đẩy Sự Kiện Webhook Vào SQS
 * Trong mã nguồn Backend NodeJS Express, chúng ta viết API tiếp nhận Webhook từ ngân hàng.
@@ -137,7 +137,7 @@ exports.handler = async (event) => {
 4. Đóng gói mã nguồn cùng tệp chứng chỉ SSL `global-bundle.pem`, tải lên Lambda và Deploy.
 5. Tạo **Trigger** liên kết SQS `payment-queue` với hàm Lambda vừa tạo.
 
-![Cấu hình hàm AWS Lambda liên kết với SQS Trigger](/images/5-Workshop/5.6-Serverless-Payment/8-lambda.png)
+![Cấu hình hàm AWS Lambda liên kết với SQS Trigger](/WorkShopAWS/images/5-Workshop/5.6-Serverless-Payment/8-lambda.png)
 
 ---
 

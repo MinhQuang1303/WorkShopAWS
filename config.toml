@@ -1,7 +1,7 @@
 baseURL = "https://minhquang1303.github.io/WorkShopAWS/"
 publishDir = "docs"
 relativeURLs = false
-canonifyURLs = false
+canonifyURLs = true
 defaultContentLanguage = "en"
 
 # Theme

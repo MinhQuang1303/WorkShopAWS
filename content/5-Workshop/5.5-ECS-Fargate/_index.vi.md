@@ -40,7 +40,7 @@ Lớp ứng dụng chính (Backend API) của J2Car AutoParts được triển k
    docker push <ACCOUNT_ID>.dkr.ecr.ap-southeast-1.amazonaws.com/j2car-backend:latest
    ```
 
-![Docker Backend Image được đẩy lên ECR thành công](/images/5-Workshop/5.5-ECS-Fargate/11-ecr.png)
+![Docker Backend Image được đẩy lên ECR thành công](/WorkShopAWS/images/5-Workshop/5.5-ECS-Fargate/11-ecr.png)
 
 #### 2. Thiết lập Application Load Balancer (ALB) Với Sticky Sessions
 Để điều phối lượng truy cập HTTP/HTTPS từ người dùng đến các container Backend trong mạng riêng:
@@ -56,7 +56,7 @@ Lớp ứng dụng chính (Backend API) của J2Car AutoParts được triển k
    * **Health Check Path:** `/api/health` hoặc `/` (để kiểm tra trạng thái hoạt động của container).
    * **Attributes (Thuộc tính duy trì phiên):** Bật thuộc tính **Sticky Sessions** (App-cookie hoặc Load Balancer Generated Cookie) để đảm bảo các kết nối nâng cấp giao thức WebSocket của Socket.io luôn giữ bắt tay ổn định với đúng 1 task container nhất định.
 
-![Cấu hình Application Load Balancer (ALB) Sticky Sessions](/images/5-Workshop/5.5-ECS-Fargate/12-alb.png)
+![Cấu hình Application Load Balancer (ALB) Sticky Sessions](/WorkShopAWS/images/5-Workshop/5.5-ECS-Fargate/12-alb.png)
 
 #### 3. Tạo ECS Task Definition & Triển khai ECS Service
 1. Truy cập console **Amazon ECS**, click **Task Definitions** -> **Create new Task Definition**.
@@ -74,7 +74,7 @@ Lớp ứng dụng chính (Backend API) của J2Car AutoParts được triển k
    * **Subnets:** Chọn Private Subnet 1 và Private Subnet 2 (vùng Compute).
    * **Load Balancing:** Chọn ALB và Target Group đã tạo ở trên.
 
-![Các container Backend chạy ở trạng thái RUNNING trên ECS Fargate](/images/5-Workshop/5.5-ECS-Fargate/13-ecs.png)
+![Các container Backend chạy ở trạng thái RUNNING trên ECS Fargate](/WorkShopAWS/images/5-Workshop/5.5-ECS-Fargate/13-ecs.png)
 
 ---
 

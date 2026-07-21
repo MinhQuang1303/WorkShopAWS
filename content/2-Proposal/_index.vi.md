@@ -35,7 +35,7 @@ Hệ thống giải quyết triệt để các vấn đề trên thông qua sự
 ### 3. Kiến trúc giải pháp  
 Hệ thống sử dụng mạng ảo **Amazon VPC** làm nền tảng an ninh, chia làm các phân vùng Public và Private Subnets hoạt động trên 2 vùng sẵn sàng (AZ) độc lập. Mọi yêu cầu truy cập từ bên ngoài được kiểm duyệt bởi **AWS WAF** và **Amazon CloudFront** trước khi phân phối vào mạng nội bộ.
 
-![Kiến trúc tổng quan AWS](/images/5-Workshop/architecture.png)
+![Kiến trúc tổng quan AWS](/WorkShopAWS/images/5-Workshop/architecture.png)
 
 *Dịch vụ AWS sử dụng*  
 *   **Amazon VPC:** Nền tảng thiết lập cấu trúc mạng an toàn (Public/Private Subnets, NAT Gateways).

@@ -29,7 +29,7 @@ Lớp dữ liệu là trái tim của hệ thống J2Car. Để đảm bảo đ�
 6. Bật tùy chọn mã hóa kết nối bằng **SSL** (yêu cầu tải chứng chỉ toàn cầu `global-bundle.pem` vào mã nguồn Backend để kết nối an toàn).
 7. Nhấp **Create Cluster** và chờ cụm chuyển sang trạng thái *Available*.
 
-![Amazon DocumentDB cluster hoạt động ở trạng thái Available](/images/5-Workshop/5.3-Databases/5-docdb.png)
+![Amazon DocumentDB cluster hoạt động ở trạng thái Available](/WorkShopAWS/images/5-Workshop/5.3-Databases/5-docdb.png)
 
 #### 2. Khởi tạo Cụm Amazon ElastiCache cho Redis
 1. Mở AWS Console, truy cập dịch vụ **ElastiCache**.
@@ -42,7 +42,7 @@ Lớp dữ liệu là trái tim của hệ thống J2Car. Để đảm bảo đ�
    * **Subnet Group:** Gắn cụm vào Private Subnets Data (`10.0.5.0/24` và `10.0.6.0/24`).
 4. Click **Create** để khởi tạo cụm Redis.
 
-![Amazon ElastiCache Redis cluster hoạt động ở trạng thái Available](/images/5-Workshop/5.3-Databases/6-redis.png)
+![Amazon ElastiCache Redis cluster hoạt động ở trạng thái Available](/WorkShopAWS/images/5-Workshop/5.3-Databases/6-redis.png)
 
 #### 3. Cấu hình Nhóm Bảo mật nghiêm ngặt (Security Group)
 * Để ngăn chặn hoàn toàn kết nối từ bên ngoài và chỉ cho phép ứng dụng Backend truy cập:

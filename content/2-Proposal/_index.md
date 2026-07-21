@@ -35,7 +35,7 @@ The platform resolves these challenges by combining modern application features 
 ### 3. Solution Architecture  
 The architecture centers on an **Amazon VPC** network layout, segregating Public and Private subnets across 2 independent Availability Zones. CloudFront CDN and AWS WAF inspect and cache requests at the edge before sending them into the internal subnets.
 
-![AWS Architecture Overview](/images/5-Workshop/architecture.png)
+![AWS Architecture Overview](/WorkShopAWS/images/5-Workshop/architecture.png)
 
 *AWS Services Used:*  
 *   **Amazon VPC:** Establishes secure network layers (Public/Private Subnets, NAT Gateways).

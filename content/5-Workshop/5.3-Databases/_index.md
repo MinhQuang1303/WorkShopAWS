@@ -29,7 +29,7 @@ The data tier is the heart of the J2Car application. To ensure maximum reliabili
 6. Enable **SSL** connection (requires downloading `global-bundle.pem` into code).
 7. Click **Create Cluster** and wait until status becomes **Available**.
 
-![Amazon DocumentDB cluster running in Available state](/images/5-Workshop/5.3-Databases/5-docdb.png)
+![Amazon DocumentDB cluster running in Available state](/WorkShopAWS/images/5-Workshop/5.3-Databases/5-docdb.png)
 
 #### 2. Provision Amazon ElastiCache Redis Cluster
 1. Open the **ElastiCache** console and choose **Redis OSS clusters**.
@@ -42,7 +42,7 @@ The data tier is the heart of the J2Car application. To ensure maximum reliabili
    * **Subnet Group:** Assign the Private Data subnets (`10.0.5.0/24`, `10.0.6.0/24`).
 4. Click **Create** to initialize the Redis cluster.
 
-![Amazon ElastiCache Redis cluster running in Available state](/images/5-Workshop/5.3-Databases/6-redis.png)
+![Amazon ElastiCache Redis cluster running in Available state](/WorkShopAWS/images/5-Workshop/5.3-Databases/6-redis.png)
 
 #### 3. Establish strict Network Security Groups
 * To deny access from outside and only allow internal backend queries:

@@ -39,7 +39,7 @@ sequenceDiagram
 4. Keep default configuration settings (Message retention period: 4 days) and click **Create Queue**.
 5. Copy the **Queue URL** (e.g., `https://sqs.ap-southeast-1.amazonaws.com/123456789012/payment-queue`).
 
-![Amazon SQS Queue Created Successfully](/images/5-Workshop/5.6-Serverless-Payment/7-sqs.png)
+![Amazon SQS Queue Created Successfully](/WorkShopAWS/images/5-Workshop/5.6-Serverless-Payment/7-sqs.png)
 
 #### 2. Configure Backend Webhook Push to SQS
 * Within the Backend NodeJS application, implement the API endpoint representing the payment callback.
@@ -137,7 +137,7 @@ exports.handler = async (event) => {
 4. Package the Lambda deployment folder containing your code and the SSL `global-bundle.pem` certificate, then upload and deploy.
 5. Create an **SQS Trigger** mapping the SQS `payment-queue` to the Lambda function.
 
-![AWS Lambda Function Associated with SQS Event Source Trigger](/images/5-Workshop/5.6-Serverless-Payment/8-lambda.png)
+![AWS Lambda Function Associated with SQS Event Source Trigger](/WorkShopAWS/images/5-Workshop/5.6-Serverless-Payment/8-lambda.png)
 
 ---
 

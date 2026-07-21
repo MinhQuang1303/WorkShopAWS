@@ -23,7 +23,7 @@ To prevent hard-coding sensitive database connection strings and token validatio
    * `JWT_SECRET`: The encryption secret string used for signing JSON Web Tokens.
 4. Name the secret: `j2car/production/secrets` and click **Store**.
 
-![Encrypted Secret Keys in AWS Secrets Manager](/images/5-Workshop/5.7-SecretsManager-WAF/9-secrets.png)
+![Encrypted Secret Keys in AWS Secrets Manager](/WorkShopAWS/images/5-Workshop/5.7-SecretsManager-WAF/9-secrets.png)
 5. **Reference Secrets inside ECS Task Definitions:**
    * Open the ECS Task Definition created in Step 5.
    * In the Container Environment Variables section, select `ValueFrom` (instead of `Value`) and paste the Secret's ARN appended with the key (e.g., `arn:aws:secretsmanager:...:j2car/production/secrets:MONGO_URI::`).
@@ -41,7 +41,7 @@ To shield the Application Load Balancer (ALB) and CloudFront edges from automate
 4. Configure default action: **Allow** (permits valid traffic, filtering only flagged payloads).
 5. Complete the Web ACL deployment.
 
-![AWS WAFv2 Web ACL Associated to ALB](/images/5-Workshop/5.7-SecretsManager-WAF/10-waf.png)
+![AWS WAFv2 Web ACL Associated to ALB](/WorkShopAWS/images/5-Workshop/5.7-SecretsManager-WAF/10-waf.png)
 
 #### 4. Monitor & Audit logs with Amazon CloudWatch Logs
 * Log outputs (stdout/stderr) from ECS Fargate task containers and AWS Lambda functions are automatically streamed to **Amazon CloudWatch Logs**.

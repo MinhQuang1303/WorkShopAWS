@@ -28,7 +28,7 @@ Chúng ta sẽ tạo 2 buckets riêng biệt cho 2 mục đích sử dụng khá
    * **Block Public Access:** Giữ **Bật (Enabled)** hoàn toàn. Tất cả hình ảnh phụ tùng tải lên từ trang Admin sẽ được lưu giữ riêng tư, không công khai ra Internet.
    * Nhấp **Create bucket**.
 
-![Khởi tạo các S3 Buckets thành công](/images/5-Workshop/5.4-Storage/14-s3.png)
+![Khởi tạo các S3 Buckets thành công](/WorkShopAWS/images/5-Workshop/5.4-Storage/14-s3.png)
 
 #### 2. Kết nối Hình ảnh Bảo mật qua Presigned URLs
 Để hiển thị ảnh an toàn từ Private S3 Media Bucket mà không cần mở công khai bucket:

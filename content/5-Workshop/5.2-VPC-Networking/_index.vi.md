@@ -33,8 +33,8 @@ Mạng ảo **Amazon VPC (Virtual Private Cloud)** đóng vai trò thiết lập
    * **Private Subnet 5 (Integration AZ1):** `10.0.7.0/24` (Chứa Lambda Webhook Handler AZ1)
    * **Private Subnet 6 (Integration AZ2):** `10.0.8.0/24` (Chứa Lambda Webhook Handler AZ2)
 
-![Khởi tạo VPC và Subnets phân tầng](/images/5-Workshop/5.2-VPC-Networking/1-vpc.png)
-![Phân dải Subnets trong VPC](/images/5-Workshop/5.2-VPC-Networking/2-subnets.png)
+![Khởi tạo VPC và Subnets phân tầng](/WorkShopAWS/images/5-Workshop/5.2-VPC-Networking/1-vpc.png)
+![Phân dải Subnets trong VPC](/WorkShopAWS/images/5-Workshop/5.2-VPC-Networking/2-subnets.png)
 
 #### 2. Định cấu hình Load Balancer & Cổng NAT
 * **Application Load Balancer (ALB):** 
@@ -45,7 +45,7 @@ Mạng ảo **Amazon VPC (Virtual Private Cloud)** đóng vai trò thiết lập
   * Giúp các tài nguyên chạy trong Private Subnets (như Container ECS Backend và AWS Lambda) có khả năng kết nối outbound ra ngoài Internet (ví dụ: gọi API cổng thanh toán ngoài VNPay/MoMo, gửi email SMTP) một cách an toàn mà không cho phép Internet bên ngoài kết nối ngược lại lớp dữ liệu.
 * Nhấp **Create VPC** và đợi AWS khởi tạo hạ tầng mạng.
 
-![Cấu hình NAT Gateways hoạt động](/images/5-Workshop/5.2-VPC-Networking/3-nat.png)
+![Cấu hình NAT Gateways hoạt động](/WorkShopAWS/images/5-Workshop/5.2-VPC-Networking/3-nat.png)
 
 ---
 
@@ -58,7 +58,7 @@ Mạng ảo **Amazon VPC (Virtual Private Cloud)** đóng vai trò thiết lập
 2. **DNS Resolution:**
    * Hãy đảm bảo thuộc tính **DNS Hostnames** và **DNS Resolution** được bật (Enabled) ở cấu hình VPC để các tài nguyên trong Private Subnet phân giải được các endpoint của AWS DocumentDB và ElastiCache Redis.
 
-![Kiểm tra các Route Tables và Gateways kết nối](/images/5-Workshop/5.2-VPC-Networking/4-endpoints.png)
+![Kiểm tra các Route Tables và Gateways kết nối](/WorkShopAWS/images/5-Workshop/5.2-VPC-Networking/4-endpoints.png)
 
 > [!IMPORTANT]
 > Việc cô lập cơ sở dữ liệu và cụm máy chủ Backend trong Private Subnet giúp ngăn chặn hoàn toàn các truy cập trái phép trực tiếp từ Internet vào lớp dữ liệu, thiết lập một chốt chặn bảo mật kiên cố.

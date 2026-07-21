@@ -40,7 +40,7 @@ To package and store our Docker image:
    docker push <ACCOUNT_ID>.dkr.ecr.ap-southeast-1.amazonaws.com/j2car-backend:latest
    ```
 
-![Backend Container Image Uploaded to ECR](/images/5-Workshop/5.5-ECS-Fargate/11-ecr.png)
+![Backend Container Image Uploaded to ECR](/WorkShopAWS/images/5-Workshop/5.5-ECS-Fargate/11-ecr.png)
 
 #### 2. Provision Application Load Balancer (ALB) with Sticky Sessions
 To route client HTTP/HTTPS requests from public networks to backend containers in the private network:
@@ -56,7 +56,7 @@ To route client HTTP/HTTPS requests from public networks to backend containers i
    * **Health Check Path:** `/api/health` or `/` (checks container responsiveness).
    * **Attributes:** Enable **Sticky Sessions** (App-cookie or Load Balancer Generated Cookie) to ensure client Socket.io real-time WebSocket connections stay pinned to a single container during the connection lifetime.
 
-![Application Load Balancer Sticky Sessions Attributes](/images/5-Workshop/5.5-ECS-Fargate/12-alb.png)
+![Application Load Balancer Sticky Sessions Attributes](/WorkShopAWS/images/5-Workshop/5.5-ECS-Fargate/12-alb.png)
 
 #### 3. Define ECS Task Definition & Deploy ECS Service
 1. Open the **Amazon ECS** console, go to **Task Definitions** and click **Create new Task Definition**.
@@ -74,7 +74,7 @@ To route client HTTP/HTTPS requests from public networks to backend containers i
    * **Subnets:** Select Private Subnet 1 and Private Subnet 2 (Compute zone).
    * **Load Balancing:** Link it to the ALB and Target Group created in the previous step.
 
-![Active Backend ECS Tasks Running on Fargate](/images/5-Workshop/5.5-ECS-Fargate/13-ecs.png)
+![Active Backend ECS Tasks Running on Fargate](/WorkShopAWS/images/5-Workshop/5.5-ECS-Fargate/13-ecs.png)
 
 ---
 

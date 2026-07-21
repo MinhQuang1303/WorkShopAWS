@@ -12,7 +12,7 @@ Chào mừng các bạn đến với tài liệu hướng dẫn thực hành Wor
 
 Hệ thống được thiết kế theo mô hình kiến trúc hiện đại, có khả năng mở rộng cao, bảo mật nghiêm ngặt và chịu lỗi vật lý cao (Multi-AZ).
 
-![Kiến trúc tổng quan AWS](/images/5-Workshop/architecture.png)
+![Kiến trúc tổng quan AWS](/WorkShopAWS/images/5-Workshop/architecture.png)
 
 ---
 

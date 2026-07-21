@@ -23,7 +23,7 @@ The system integrates modern business features:
 ### 2. System Architecture Diagram
 The infrastructure is built on Amazon Web Services (AWS) adhering to the AWS Well-Architected Framework:
 
-![AWS Architecture Overview](/images/5-Workshop/architecture.png)
+![AWS Architecture Overview](/WorkShopAWS/images/5-Workshop/architecture.png)
 
 ---
 

@@ -23,7 +23,7 @@ Lớp bảo mật quản lý an ninh, bảo vệ toàn bộ hạ tầng đám m�
    * `JWT_SECRET`: Khóa bí mật dùng để ký và xác thực mã JWT.
 4. Đặt tên Secret: `j2car/production/secrets`. Nhấp **Store**.
 
-![Mã hóa cấu hình bảo mật trên AWS Secrets Manager](/images/5-Workshop/5.7-SecretsManager-WAF/9-secrets.png)
+![Mã hóa cấu hình bảo mật trên AWS Secrets Manager](/WorkShopAWS/images/5-Workshop/5.7-SecretsManager-WAF/9-secrets.png)
 5. **Cách liên kết vào ECS Task Definition:**
    * Trong giao diện cấu hình Task Definition của Backend (ở Bước 5), tại phần cấu hình Environment Variables của Container, thay vì chọn `Value`, ta chọn `ValueFrom` và dán ARN của Secrets Manager kèm theo key tương ứng (ví dụ: `arn:aws:secretsmanager:...:j2car/production/secrets:MONGO_URI::`).
    * ECS sẽ tự động giải mã và nạp các biến này vào container lúc khởi chạy.
@@ -40,7 +40,7 @@ Lớp bảo mật quản lý an ninh, bảo vệ toàn bộ hạ tầng đám m�
 4. Cấu hình Default Action: **Allow** (Cho phép tất cả lưu lượng hợp lệ và chỉ chặn các request vi phạm luật).
 5. Hoàn thành khởi tạo Web ACL.
 
-![AWS WAFv2 bảo vệ Application Load Balancer](/images/5-Workshop/5.7-SecretsManager-WAF/10-waf.png)
+![AWS WAFv2 bảo vệ Application Load Balancer](/WorkShopAWS/images/5-Workshop/5.7-SecretsManager-WAF/10-waf.png)
 
 #### 4. Thu Thập Nhật Ký Với Amazon CloudWatch Logs
 * Toàn bộ nhật ký hoạt động (Console Logs) của các Container ECS Backend chạy trên Fargate và hàm AWS Lambda xử lý webhook được cấu hình tự động đẩy về CloudWatch Logs.

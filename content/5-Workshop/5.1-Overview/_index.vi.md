@@ -23,7 +23,7 @@ Hệ thống tích hợp các tính năng nghiệp vụ hiện đại bao gồm:
 ### 2. Sơ đồ Kiến trúc Hệ thống
 Hạ tầng của dự án được triển khai trên nền tảng AWS nhằm tuân thủ nguyên tắc thiết kế tốt nhất (AWS Well-Architected Framework):
 
-![Kiến trúc AWS J2Car AutoParts](/images/5-Workshop/architecture.png)
+![Kiến trúc AWS J2Car AutoParts](/WorkShopAWS/images/5-Workshop/architecture.png)
 
 ---
 

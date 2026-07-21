@@ -28,7 +28,7 @@ We partition our storage into two S3 buckets based on access control requirement
    * **Block Public Access:** Keep this **Enabled**. All spare parts images uploaded from the Admin dashboard are stored privately.
    * Click **Create bucket**.
 
-![Provisioned S3 Buckets](/images/5-Workshop/5.4-Storage/14-s3.png)
+![Provisioned S3 Buckets](/WorkShopAWS/images/5-Workshop/5.4-Storage/14-s3.png)
 
 #### 2. Secure Image Delivery via Presigned URLs
 To display images from the private S3 Media bucket without exposing files publicly:

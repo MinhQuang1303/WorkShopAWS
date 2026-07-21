@@ -12,7 +12,7 @@ Welcome to the step-by-step hands-on Workshop guide for deploying the **NodeJ2Ca
 
 The system leverages a modern containerized and serverless architecture designed for high availability (Multi-AZ), security, and cost efficiency.
 
-![AWS Architecture Overview](/images/5-Workshop/architecture.png)
+![AWS Architecture Overview](/WorkShopAWS/images/5-Workshop/architecture.png)
 
 ---
 

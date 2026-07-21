@@ -33,8 +33,8 @@ The virtual private network **Amazon VPC** acts as the primary security boundary
    * **Private Subnet 5 (Integration AZ1):** `10.0.7.0/24` (Hosts Lambda Webhook AZ1)
    * **Private Subnet 6 (Integration AZ2):** `10.0.8.0/24` (Hosts Lambda Webhook AZ2)
 
-![VPC and Subnets Partitioning](/images/5-Workshop/5.2-VPC-Networking/1-vpc.png)
-![Subnets Range Definition](/images/5-Workshop/5.2-VPC-Networking/2-subnets.png)
+![VPC and Subnets Partitioning](/WorkShopAWS/images/5-Workshop/5.2-VPC-Networking/1-vpc.png)
+![Subnets Range Definition](/WorkShopAWS/images/5-Workshop/5.2-VPC-Networking/2-subnets.png)
 
 #### 2. Configure Routing and NAT Gateways
 * **Application Load Balancer (ALB):** 
@@ -45,7 +45,7 @@ The virtual private network **Amazon VPC** acts as the primary security boundary
   * Allows isolated resources (such as ECS Backend and AWS Lambda in Private Subnets) to establish secure outbound connections to the internet (e.g., SMTP email servers, payment gateway webhook replies VNPay/MoMo) while blocking unauthorized inbound ingress.
 * Click **Create VPC** and monitor status changes until completion.
 
-![NAT Gateways Running](/images/5-Workshop/5.2-VPC-Networking/3-nat.png)
+![NAT Gateways Running](/WorkShopAWS/images/5-Workshop/5.2-VPC-Networking/3-nat.png)
 
 ---
 
@@ -58,7 +58,7 @@ The virtual private network **Amazon VPC** acts as the primary security boundary
 2. **DNS settings:**
    * Make sure **DNS Hostnames** and **DNS Resolution** are **Enabled** on your VPC. This ensures private domain endpoints (such as DocumentDB cluster URLs) can be resolved.
 
-![Route Tables and Endpoint Verification](/images/5-Workshop/5.2-VPC-Networking/4-endpoints.png)
+![Route Tables and Endpoint Verification](/WorkShopAWS/images/5-Workshop/5.2-VPC-Networking/4-endpoints.png)
 
 > [!IMPORTANT]
 > Network segregation completely blocks public internet endpoints from accessing backend compute and database tiers directly, reducing the attack surface.
