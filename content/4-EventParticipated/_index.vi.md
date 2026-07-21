@@ -6,10 +6,6 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 Trong 12 tuần thực tập tại chương trình **AWS Workforce Bootcamp – First Cloud AI Journey**, tôi đã có cơ hội tham dự các sự kiện công nghệ và hội thảo cộng đồng quy mô lớn. Mỗi sự kiện đều là một trải nghiệm đáng nhớ, mang lại những kiến thức mới mẻ, giá trị thực tiễn cùng những khoảnh khắc tuyệt vời khi được giao lưu, kết nối với các chuyên gia và cộng đồng đam mê Đám mây & AI.
 
 Dưới đây là tóm tắt các sự kiện tôi đã tham gia:
@@ -24,7 +20,7 @@ Dưới đây là tóm tắt các sự kiện tôi đã tham gia:
 ---
 
 ### [4.2. Sự kiện 2: Swinburne Cloud Mastery 2026](4.2-event2/)
-* **Tên sự kiện:** Swinburne Cloud Mastery 2026 (Tinh thông Đám mây Swinburne 2026)
+* **Tên sự kiện:** Swinburne Cloud Mastery 2026 
 * **Thời gian:** Ngày 04 tháng 07 năm 2026 (08:30 - 12:00)
 * **Địa điểm:** Campus Swinburne Việt Nam, A35 Đường Bạch Đằng, Quận Tân Bình, TP. Hồ Chí Minh
 * **Vai trò:** Sinh viên thực tập / Người tham dự

@@ -6,9 +6,6 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
 
 During my 12-week internship in the **AWS Workforce Bootcamp – First Cloud AI Journey** program, I had the opportunity to participate in major technology conferences and community events. Each event was a memorable experience that provided new, insightful, and practical knowledge, along with wonderful moments connecting with AWS solution architects, industry experts, and fellow cloud enthusiasts.
 

@@ -3,27 +3,29 @@ relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
 
-# Sử dụng giao diện hugo-theme-learn
 theme = "hugo-theme-learn"
 
-# Cấu hình tìm kiếm
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
 [params]
-  themeVariant = "workshop"
-  editURL = ""
-  description = ""
-  author = "dmq13042003@gmail.com"
-  showVisitedLinks = true
-  disableBreadcrumb = false
-  disableNextPrev = false
-  
+themeVariant = "workshop"
+editURL = ""
+description = "Internship Report"
+author = "dmq13042003@gmail.com"
+showVisitedLinks = true
+disableBreadcrumb = false
+disableNextPrev = false
+
 [Languages]
+
+########################
+# English
+########################
 [Languages.en]
 title = "Internship Report"
 weight = 1
-label = "English" # Thay thế languageName cũ bằng label tránh lỗi WARN
+label = "English"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
@@ -35,12 +37,15 @@ weight = 20
 name = "<i class='fab fa-facebook'></i> AWS Study Group - FB Group"
 identifier = "AWS Study Group FB"
 url = "https://www.facebook.com/groups/awsstudygroupfcj"
-weight = 20
+weight = 30
 
+########################
+# Vietnamese
+########################
 [Languages.vi]
 title = "Báo cáo thực tập"
 weight = 2
-label = "Tiếng Việt" # Thay thế languageName cũ bằng label tránh lỗi WARN
+label = "Tiếng Việt"
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
@@ -52,7 +57,7 @@ weight = 20
 name = "<i class='fab fa-facebook'></i> AWS Study Group - Nhóm FB"
 identifier = "AWS Study Group FB"
 url = "https://www.facebook.com/groups/awsstudygroupfcj"
-weight = 20
+weight = 30
 
 [markup]
   [markup.goldmark]
