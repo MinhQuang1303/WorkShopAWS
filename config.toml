@@ -1,6 +1,4 @@
 baseURL = "https://minhquang1303.github.io/WorkShopAWS/"
-publishDir = "docs"
-
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
@@ -15,11 +13,15 @@ home = ["HTML", "RSS", "JSON"]
 [params]
 themeVariant = "workshop"
 editURL = ""
-description = ""
+description = "Internship Report"
 author = "dmq13042003@gmail.com"
 showVisitedLinks = true
 disableBreadcrumb = false
 disableNextPrev = false
+
+############################
+# Languages
+############################
 
 [Languages]
 
@@ -56,6 +58,10 @@ name = "<i class='fab fa-facebook'></i> AWS Study Group - Nhóm FB"
 identifier = "AWS Study Group FB"
 url = "https://www.facebook.com/groups/awsstudygroupfcj"
 weight = 30
+
+############################
+# Markdown
+############################
 
 [markup]
   [markup.goldmark]
